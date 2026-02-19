@@ -1,0 +1,46 @@
+/FilterBlock/UI/filter.py
+/Main/UI/main.py
+/Main/reservations.xlsx
+/VipList/UI/vip_list.py
+
+# PyCharm project files
+.idea/
+# Specific PyCharm files that often cause churn but are user-specific
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Python virtual environment
+# A common convention is to name the environment 'venv'
+venv/
+.venv/
+
+# Byte-code and temporary files
+*.pyc
+__pycache__/
+
+# Distribution and packaging
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+*.tar.gz
+*.whl
+
+# PySide6/Qt generated files (e.g., from uic, rcc compilers)
+# Files generated from .ui or .qrc files that are recreated during build
+*_rc.py
+*_ui.py
+# If you configure PyCharm external tools to output with a specific suffix
+*_done.py
+
+# Operating System files
+.DS_Store # macOS
+.Trashes # macOS
+*.nfs # Linux
+/Main/main.spec
+/main.spec
+/VipList/credentials.py
