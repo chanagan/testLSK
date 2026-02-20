@@ -23,10 +23,10 @@ PARAMS = {
     "date": "date",
 }
 def get_daily_totals():
-    repDate = "2025-02-16"
+    repDate = "2025-02-19"
     token = get_access_token(CLIENT_ID, CLIENT_SECRET)
 
-    token = "a3d6bfca-2882-4dc9-914e-24e5324a4d39"
+    # token = "a3d6bfca-2882-4dc9-914e-24e5324a4d39"
     PARAMS["date"] = repDate
     response = requests.get(
         url=URL, params=PARAMS, headers={"Authorization":f"Bearer {token}",}
@@ -46,8 +46,8 @@ def refresh_token_file():
     print (payload)
 
 if __name__ == '__main__':
-    # get_daily_totals()
-    refresh_token_file()
+    get_daily_totals()
+    # refresh_token_file()
 #
 # CLIENT_ID = "devp-prod-hildenboroughhotelslimitedincislandhousekeywest57861-d012acc1f3b07f995edde92132b1845d"
 # CLIENT_SECRET = "nwsec-fca5e6d1cc93aef4b3cf66a7dfbed70afa297c79823580816917cd09c3027c4915015e7f5f161226c37b86c7bb2e706b0c3e2045a36c9dc7c9294c20fa0063ce"

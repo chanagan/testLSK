@@ -54,7 +54,7 @@ def run_server():
 #     pass
 #
 # code = captured["code"]
-code = "hsvi0o"
+code = "4oruXG"
 print("Got code:", code)
 
 # Exchange code for tokens
