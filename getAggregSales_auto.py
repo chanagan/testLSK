@@ -23,7 +23,7 @@ PARAMS = {
     "date": "date",
 }
 def get_daily_totals():
-    repDate = "2025-02-19"
+    repDate = "2025-02-20"
     token = get_access_token(CLIENT_ID, CLIENT_SECRET)
 
     # token = "a3d6bfca-2882-4dc9-914e-24e5324a4d39"
